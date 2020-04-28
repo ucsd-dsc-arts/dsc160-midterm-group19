@@ -1,29 +1,21 @@
-# Project Title
+Picasso and Color Periods
 
 DSC160 Data Science and the Arts - Midterm Project Repository - Spring 2020
 
 Project Team Members: 
-- Firstname Lastname1, name1@ucsd.edu
-- Firstname Lastname2, name2@ucsd.edu
-- Firstname Lastname3, name3@ucsd.edu
-- Firstname Lastname4, name4@ucsd.edu
-- Firstname Lastname5, name5@ucsd.edu
+- Nikolas Racelis-Russell, nracelis@ucsd.edu
+- Iakov Vasilyev, ivasilie@ucsd.edu
+- Cameron Shaw, c8shaw@ucsd.edu
+- Boyuan Zheng
 
 ## Abstract
 
 (10 points) 
 
-For the project proposal, please write a short abstact addressing the questions below. You should replace the entire contents of this section with one to two paragraphs addressing the following:
+For the project proposal, please write a short abstract addressing the questions below. You should replace the entire contents of this section with one to two paragraphs addressing the following:
 
-- What is the data set that you are going to analyze?
-- What is your research question? 
-- What is your hypothesis about the results? 
-- What features of the data will you use to address your question? 
-- What techniques and software tools will you use to extract these features?
-- What analytic techniques will you use?
-- What forms will your results take? (graphs, charts, images, sonification, Wordles, etc)
-- How are you expanding on topics we have covered in class? 
-- Why is it interesting? (personally, culturally, politically, other)
+Our team will analyze Pablo Picasso’s works for computational evidence of the existence of his famous Blue Period. Since Picasso’s Blue Period is an established phenomena, we expect certain tools applied to certain features to return confirming results. We will then take those tools and apply them to other artists’ collections to find out whether it is a common occurrence for artists to have color periods, as well as checking periods for other attributes, such as brightness and saturation. We are expecting many artists will have periods, since we are assuming they are reflective of the artist’s mental state, which can periodically change - or perhaps a period could be in response to a culturally significant event.
+We will scrape the artists’ works from WikiArt and extract the simple features ourselves while relying on skimage and other such libraries; after figuring out which features produce the most convincing results. After feature extraction, we can apply techniques from simple hypothesis testing to machine learning classification (i.e. supervised learning). Our goal is to find out which of those techniques can confirm the existence of Picasso’s blue period most effectively, so we can see if it applies to other artists. Since we are working with visual art, we have the opportunity to make the visualizations look unique, because we can use the paintings as graph points, the same way we did for a Rothko canvas. However, since the features and techniques we will use are going to be decided during the process of the analysis, it is hard to tell exactly how we will visualize our results for now. This class is teaching us to quantify and compute seemingly unquantifiable and uncomputable features of art. In this case, with the assumption that color periods come from the artist’s emotional state, we are quantifying the emotional content that state dictates, which is, arguably, the most important aspect of an art piece. Therefore, in addition to pure computational analysis, we can also employ some subjective, personal analysis of each individual artist by trying to figure out the artist’s feelings and motivations over a color period.
 
 ## Data
 
