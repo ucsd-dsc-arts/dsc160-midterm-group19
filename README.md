@@ -1,4 +1,4 @@
-#Picasso and Color Periods
+# Picasso and Color Periods
 
 DSC160 Data Science and the Arts - Midterm Project Repository - Spring 2020
 
