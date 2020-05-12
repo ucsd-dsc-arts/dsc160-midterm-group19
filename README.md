@@ -81,7 +81,4 @@ num (integer) - number of pictures to generate, set to 4 in order for the visual
 
 ## Reference
 
-References to any papers, techniques, repositories you used:
-- Papers
-- Repositories
-- Blog posts
+We used scraping techniques from the earlier exercises, everything else was personal effort.
