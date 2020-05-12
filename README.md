@@ -27,6 +27,10 @@ This section will describe your data and its origins. Each item should contain a
 - Who created the works? 
 - Is it digital native, or is it some kind of scan, recording, photo, etc., of an analog form? 
 
+A fraction of Zdzislaw Beksinski's scanned works from wikiart. [His work] (https://www.wikiart.org/en/zdislav-beksinski/)
+All of Beksinski's paintings, photos, and digital work were done between at least 1956-2009, his death. Since a majority of his works are undated, it is impossible to tell when each painting was done, but there are clear distinctions in his style that can be pinpointed. This is what we would like to examine in comparison to Picasso's Blue Period.
+
+
 ## Code
 
 (20 points)
@@ -40,6 +44,9 @@ This section will link to the various code for your project (stored within this 
 
 Link each of your notebooks or .py files within this section, and provide a brief explanation of what the code does. Reading this section we should have a sense of how to run your code.
 
+[Cameron's Code] (code/Cameron S/Cameron S Beksinski Notebook)
+This notebook walks through the scraping, cleaning, analysis and results of the Beksinski analysis portion of the midterm, as well as an attempt to test a classifier using the data gleaned from this sample of Beksinski's works.
+
 ## Results
 
 (30 points) 
@@ -50,6 +57,13 @@ This section will contain links to documentation of your results. This can inclu
 - audio files (`.wav`, `.mp3`)
 - written text as `.pdf`
 
+[brightness vs hue] (results/results-zdzislaw-beksinski/brightness_vs_hue.jpg)
+Visualization of the mean brightness and the mean hue of each of the chosen Beksinski works.
+[saturation vs hue] (results/results-zdzislaw-beksinski/saturation_vs_hue.jpg)
+Visualization of the mean saturation and the mean hue of each of the chosen Beksinski works.
+[entropy vs energy] (results/results-zdzislaw-beksinski/mean_entr vs mean_ener.jpg)
+Visualization fo the mean entropy and the mean energy of each of Beksinski's works.
+These visualizations combined show that there are distinct divides in the sample of Beksinski's works that were chosen. 
 ## Discussion
 
 (30 points, three to five paragraphs)
@@ -63,9 +77,15 @@ The subsequent paragraphs could address questions including:
 - How do your results relate to broader social, cultural, economic political, etc., issues? 
 - In what future directions could you expand this work?
 
+Observation shows that there are several, the main standouts being the black and white type, the predominantly orange type, the blue type, and periods that are greyer or somewhere in between. In Cameron's code, he attempted to train a classifier to identify orange and non-orange paintings, but the score was low. If a follow-up were to be planned, it'd probably be better to use a much larger sample. However, for this project we decided not to use all of them, as that would've been much too large.
+
+Zdzislaw Beksinski's works are famous for their surreal, fantastical, almost post-apocalyptic style, and his influence can be seen across western media, especially in the horror genre, in which his works seem to best be described. However, Beksinski, being the eccentric he was, rarely dated or signed his paintings. For us, as data scientists, this presents a unique issue in that everything must be done relative to the rest of his paintings. Unlike Picasso, where we can accurately date periods that share style and color. So unlike Picasso, this is a situation wherein we cannot with certainty say that there is a Beksinski "Orange Period." One thing that can be said is that his paintings are uniquely gloomy in tone, their saturation and brightness clearly similar to one another, yet their colors can vary from a gloomy grey to a bright blue. Moreover, the paintings are also distinctly dynamic in their presentation. There was very little low entropic, low energy works. There were always vibrant colors to accompany the macabre imagery. 
+If future statistics were to be done on these paintings, perhaps comparisons between these paintings and other macabre horror titans can be made, like the *Alien* franchise for example, whose iconic design for the *Alien* super predator matches the macabre themes of Beksinski's paintings to a T. 
+
 ## Team Roles
 
 Provide an account of individual members and their efforts/contributions to the specific tasks you accomplished.
+Cameron Shaw - wrote code for the Beksinski scraping and analysis, as well as worked on the write-up.
 
 ## Technical Notes and Dependencies
 
